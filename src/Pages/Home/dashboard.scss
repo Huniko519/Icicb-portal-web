@@ -1,0 +1,111 @@
+.dashboard{
+	margin: 1em;
+	padding: 2em;
+	padding-top: 0;
+	
+
+	.hr{
+		border-bottom: 1px solid #6c6251;
+	}
+	.grey{
+		color:rgb(104, 104, 104)!important;
+	}
+	.submit {
+		background-color:transparent;
+		padding:12px;
+		margin-top:12px;
+		border-radius:20px; 
+		display: inline-block;
+		color: rgb(250, 250, 250)!important; 
+		font-weight: bold;
+		cursor: pointer;
+		margin: 1em;
+		&[disabled] {
+			border: 1px solid #444; 
+			color:#666 !important
+		}
+		&.active{ 
+		  background-color: #996f22;
+		  color: black!important;
+		}
+		&:hover{ 
+			background-color:#72541c;
+			color: black!important;
+		}
+	}
+
+	.balance{
+		border:1px solid #292725;
+		border-radius: 30px;
+		display: flex; 
+		margin: 10px;
+		color:rgb(151, 151, 151);
+		padding: 3px;
+		align-items: center;
+		position: relative;
+	}
+
+	.btn-deposit{
+		display: flex;
+		align-items: center;
+		border-radius: 2px; 
+		padding: 5px;
+		border: 1px solid transparent;
+		cursor: pointer;
+		transition: 0.2s;
+		margin: 8px;
+		label {
+			cursor: pointer;
+		}
+		&:hover {
+			transform: translateY(-3px);
+		}
+	}
+	.deposit-icon{
+		position: absolute;
+		right: 15px;
+	}
+	.modal{
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		position: fixed;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+	}
+	.modal-overlay{
+		z-index: 10;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		position: fixed;
+		background: rgba(0,0,0,0.7);
+	}
+	.modal-container{
+		z-index: 11;
+		padding: 0 1em 1em 1em;
+		width: 450px;
+		height: auto;
+		border-radius: 10px;
+		background-color: #2f2e26;
+		.modal-close{
+			font-size: 2em;
+			cursor: pointer;
+			color:white;
+		}
+		@media (max-width: 576px) {
+			width: 100%;
+			margin-left: 10px;
+			margin-right: 10px;
+			transform: none
+		}
+	}
+    @media (max-width: 768px) {
+        margin: 0;
+		padding: 0;
+    }
+}

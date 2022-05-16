@@ -1,0 +1,32 @@
+{
+    "icicb": {
+        "title": "ICICB (ICICB Chain native token)",
+        "symbol": "ICICB",
+        "chain": "evm"
+    },
+    "eth": {
+        "title": "ETH (Ethereum)",
+        "symbol": "ETH",
+        "chain": "evm"
+    },
+    "bnb": {
+        "title": "BNB (Binance Smartchain)",
+        "symbol": "BNB",
+        "chain": "evm"
+    },
+    "usdt": {
+        "title": "USDT (ERC20)",
+        "symbol": "USDT",
+        "chain": "evm"
+    },
+    "btc": {
+        "title": "BTC (Bitcoin)",
+        "symbol": "BTC",
+        "chain": "btc"
+    },
+    "ltc": {
+        "title": "LTC (Litecoin)",
+        "symbol": "LTC",
+        "chain": "ltc"
+    }
+}

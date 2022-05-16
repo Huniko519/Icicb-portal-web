@@ -1,0 +1,30 @@
+.setting{ 
+    .submit{
+        background-color:#996f22;
+        display: inline-block;
+        text-align: center;
+        min-width: 150px;
+        padding: 12px;
+        border-radius:20px;
+        color: black!important;
+        border: none; 
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .submit:hover{ 
+        background-color:#ac7a1e;
+    }
+
+    .input-text{ 
+        background-color: transparent;
+        border: none;
+        color: #e6c486!important;
+        font-size: 18px;
+        border-radius: 10px!important;
+        border: 1px solid rgb(82, 75, 49)!important;
+        padding: 14px 2em;
+    }
+    .grey{
+        color:grey;
+    }
+}

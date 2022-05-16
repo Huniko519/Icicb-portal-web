@@ -1,0 +1,25 @@
+.input-code {
+	.input-token{
+		background-color: transparent;
+		border: none;
+		color: #e6c486;
+		font-size: 18px; 
+		border: 1px solid rgb(126, 118, 90);
+		border-radius: 40px;
+	}
+	.submit{
+		background-color:#996f22;
+		padding:12px;
+		margin-top:12px;
+		border-radius:20px;
+		color:"white";
+		border:"none";
+		right:'4px';
+		border: none;
+		color: rgb(19, 15, 1); 
+		font-weight: bold;
+	}
+	.submit:hover{ 
+		background-color:#ac7a1e;
+	}
+}

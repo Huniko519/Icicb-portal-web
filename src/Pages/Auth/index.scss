@@ -1,0 +1,63 @@
+.auth {
+    .panel{
+        width:500px;
+        margin:0 auto; 
+    }
+    @media (max-width: 576px) {
+        .panel{
+            width:100%;
+            margin:0 auto; 
+        }
+    }
+
+    transform: translateY(10%);
+    .input{
+        background-color: transparent;
+        border:1px solid rgb(126, 118, 90);
+        font-size: 16px;
+        border-radius: 40px;
+        padding: 1em 2em;
+        color:white;
+    } 
+    label{
+        padding: 10px;
+        margin: 3px!important;
+    }
+    .submit{
+        background-color:#996f22;
+        padding:12px;
+        margin-top:12px;
+        border-radius:20px; 
+        border:"none";
+        right:'4px';
+        border: none;
+        color: white;
+        transition: 0.2s;
+        &:hover{ 
+            background-color:#ac7a1e;
+        }
+    }
+
+    .errmsg {
+        color : red;
+        transition: height 1s;
+    }
+    .pin-input{
+        width: 50px;
+        height: 45px;
+        border: 1px solid #7e7159;
+        border-radius: 2px;
+        text-align: center;
+        color:white;
+        font-size: 18px;
+        background-color: transparent;
+        cursor: pointer;
+        &:hover{
+            background-color: rgba(202, 155, 0, 0.473);
+        }
+    }
+}
+
+body{
+    background-color: black;
+}

@@ -1,0 +1,52 @@
+{
+  "icicb": {
+    "bridge": "0x02a52d292985Ab635b8a0f1ba03BD15764275DE9",
+    "wicicb": "0x13f8cf475F4795Bc4Ebf314F56Faab0A0133BC51",
+    "chainId": 417,
+    "coin": "ICICB",
+    "decimals": 18,
+    "confirmations": 1,
+    "blocktime": 1000,
+    "rpc": "https://testnet-rpc.icicbchain.org",
+    "explorer": "https://testnet-explorer.icicbchain.org",
+    "erc20": "IRC20"
+  },
+  "eth": {
+    "bridge": "0x1AbbA4d5565305Af584D3a069e78690BC816B4fB",
+    "chainId": 4,
+    "coin": "ETH",
+    "decimals": 18,
+    "confirmations": 12,
+    "blocktime": 15000,
+    "rpc": "https://rinkeby.infura.io/v3/580d6de4d2694cbdbee111d2f553dbcc",
+    "explorer": "https://rinkeby.etherscan.io/",
+    "erc20": "ERC20"
+  },
+  "bsc": {
+    "bridge": "0x097a7f06191e8E34B0A7bBf4547DbAF66b3A7f80",
+    "chainId": 97,
+    "coin": "BNB",
+    "decimals": 18,
+    "confirmations": 12,
+    "blocktime": 3000,
+    "rpc": "https://ethereum-rpc.icicbchain.org/bsctest/",
+    "explorer": "https://testnet.bscscan.com/",
+    "erc20": "BEP20"
+  },
+  "btc": {
+    "coin": "btc",
+    "decimals": 8,
+    "confirmations": 1,
+    "blocktime": 600000,
+    "rpc": "http://bitcoin-rpc.icicbchain.com",
+    "explorer": "https://blockchair.com/bitcoin"
+  },
+  "ltc": {
+    "coin": "ltc",
+    "decimals": 8,
+    "confirmations": 6,
+    "blocktime": 60000,
+    "rpc": "http://litecoin-rpc.icicbchain.com",
+    "explorer": "https://blockchair.com/litecoin"
+  }
+}

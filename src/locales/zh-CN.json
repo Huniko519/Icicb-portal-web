@@ -1,0 +1,21 @@
+{
+    "lang" : "中",
+    "chain": "ICICB链",
+    "bridge": "ICICB桥",
+    "description": "更快，最安全交易ICICB链",
+    "wallet.connect": "钱包连接",
+
+    "chain.icicb": "ICICB链",
+    "chain.eth": "以太坊链",
+    "chain.bsc": "币安智能链",
+    "chain.trx": "波杨链",
+    "chain.ht": "HECO链",
+
+    
+    "token.native": "Native Token",
+    "msg.exceed": "The input value exceeds your {coin} balance.",
+    "msg.correct": "please input correct amount of {coin}",
+    "msg.success": "You have bought successfully ICICB coin with {amount} {symbol}",
+
+    "end":""
+}

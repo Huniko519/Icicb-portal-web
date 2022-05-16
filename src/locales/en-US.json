@@ -1,0 +1,20 @@
+{
+    "lang" : "En",
+    "chain": "ICICB CHAIN",
+    "bridge": "ICICB Bridge",
+    "description": "The safe, fast and most secure way to bring cross-chain assets to ICICB chains.",
+    "wallet.connect": "Connect",
+
+    "chain.icicb": "ICICB network",
+    "chain.eth": "Ethereum network",
+    "chain.bsc": "Binance SmartChain",
+    "chain.trx": "Tron network",
+    "chain.ht": "HECO network",
+    
+    "token.native": "Native Token",
+    "msg.exceed": "The input value exceeds your {coin} balance.",
+    "msg.correct": "please input correct amount of {coin}",
+    "msg.success": "You have bought successfully ICICB coin with {amount} {symbol}",
+
+    "end":""
+}

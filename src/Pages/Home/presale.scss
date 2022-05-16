@@ -1,0 +1,149 @@
+.presale{ 
+	transform: translateY(140px);
+	.presale-panel{
+		@media (max-width: 576px) {
+			width: 100%;
+		}
+		width: 500px;
+		margin: 0 auto;
+	}
+	.btn-connect{
+		padding:1px 15px;
+		margin: 0;
+		background-color: transparent;
+		border: 1px solid rgb(216, 104, 29);
+		border-radius: 20px;
+		color:rgb(216, 104, 29);
+		cursor: pointer;
+		height: 25px;
+		align-self: center;
+		&:hover{ 
+			color:rgb(204, 216, 29);
+			border-color:rgb(204, 216, 29);
+		}
+	}
+	.submit{
+		background-color:#996f22;
+		padding:12px;
+		margin-top:12px;
+		border-radius:20px;
+		color:"white";
+		border:"none";
+		right:'4px';
+		border: none;
+		color: rgb(19, 15, 1); 
+		font-weight: bold;
+	}
+	.submit:hover{ 
+		background-color:#ac7a1e;
+	}
+	.inputbar{ 
+		background-color: transparent;
+		padding: 6px;
+		border:1px solid rgb(126, 118, 90);
+		font-size: 16px;
+		border-radius: 40px;
+		color:white;
+		display: flex; 
+		margin-top: 1em;
+		width:100%;
+		.token-amount{
+			position: relative;
+			flex:7;
+			.input-token{
+				background-color: transparent;
+				border: none;
+				color: #e6c486;
+				width: 100%;
+				font-size: 18px;
+				border-radius: 0;
+				border-right: 1px solid rgb(126, 118, 90);
+			}
+		}
+		.token-type{
+			width: 100px;
+			border-right: 1px solid rgb(126, 118, 90);
+			.token-dropdown{
+				position: relative;
+				text-align: center; 
+				padding: 16px;
+				cursor: pointer; 
+				&:hover .dropdown-list{
+					display:block;
+				}
+				.dropdown-list {
+					position:absolute; 
+					width:80%;
+					left:20%; 
+					color:white;
+					display:none;
+					z-index:1000;
+					top:103%;
+					padding:0; 
+					.dropdown-item{
+						padding:1em;     
+						background-color:rgb(32, 25, 4);
+						border-bottom:1px solid rgb(126, 118, 90);
+						border-left:3px solid #584e2e;
+						border-right:1px solid #584e2e;
+						user-select:none;
+						text-align:left;
+						padding-left:23px;
+						&:hover{ 
+							background-color:rgb(50, 41, 12);
+						}
+						
+					}
+				}
+			}
+		}
+		.token-icon{
+			width: 80px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+	
+	.input-token{
+		background-color: transparent;
+		border: none;
+		color: #e6c486;
+		font-size: 18px; 
+		border: 1px solid rgb(126, 118, 90);
+		border-radius: 40px;
+	}
+	/* .modal{
+		display: block;
+		position: fixed;
+		left: 0;
+		top: 0;
+		color: white;
+		.modal-overlay{
+			z-index: 10;
+			width: 100vw;
+			height: 100vh;
+			position: relative;
+			background: rgba(0,0,0,0.7);
+		}
+		.modal-container{
+			z-index: 11;
+			padding: 3em;
+			width:30%;
+			height: 50%;
+			position: absolute;
+			left:35%;
+			top:25%;
+			border-radius: 10px;
+			background-color: #2f2e26;
+			.modal-close{
+				position: absolute;
+				top: 1px;
+				right:5px;
+				font-size: 2em;
+				cursor: pointer;
+				color:white;
+			}
+		}
+	} */
+}
